@@ -1,0 +1,5 @@
+function output_ran=DATASAMPLE(number,output)
+
+k=randperm(number);
+output_ran=k(1:output);
+return ;

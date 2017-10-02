@@ -1,0 +1,16 @@
+function output_ran=DATASAMPLE2(number,output)
+i=0;
+while i<10;
+    number=dec2base(number,10)-'0';
+    for i=1:output
+    j=randi([1 numel(number)],1);
+    end
+
+    output_ran=number(j);
+    if(output_ran==0) 
+    else i = 10;
+    end
+end
+
+
+return ;
